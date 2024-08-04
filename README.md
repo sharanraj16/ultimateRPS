@@ -9,9 +9,9 @@ Certainly! Here is the updated README with the new game name "Ultimate RPS" and 
 Welcome to Ultimate RPS! This project is a comprehensive demonstration of my skills as a Full Stack Developer, showcasing my proficiency in front-end and back-end web technologies. Developed as part of my Full Stack Developer course at Code Institute, this game utilizes HTML, CSS, and JavaScript to offer an engaging and interactive experience.
 
 Ultimate RPS allows players to challenge the computer in an expanded version of the classic Rock Paper Scissors game, incorporating additional moves like Lizard and Spock. The objective is to reach a score of 10 before the computer does, making it an exciting and competitive experience. This README provides a detailed overview of the project's features, the technologies used, and the criteria met, highlighting the various elements that contribute to the game's functionality and user experience.
-Welcome to <a href="" target="_blank" rel="noopener">UltimateRPS</a>
+Welcome to <a href="https://sharanraj16.github.io/ultimateRPS/" target="_blank" rel="noopener">UltimateRPS</a>
 
-![Homepage wireframe image](assets/readmeimages/homepage-mobile.PNG)
+![Homepage am i resposive image](assets/readmeimages/amiresponsive.png)
 ## Features
 
 ### 1. **User Interface**
@@ -245,8 +245,10 @@ The game's code has also been validated with the W3C validator, ensuring complia
 
 Special thanks to:
 
-- **[Tech Tamil](https://www.youtube.com/channel/UC1k3KqfKp5TC-_V1wC2Rf8w)**: For insightful tutorials on web development technologies.
-- **[Logic First Tamil](https://www.youtube.com/channel/UCpJY4ELdCCyKNv5YH51aQkA)**: For clear explanations of programming concepts and logical problem-solving approaches.
+Special thanks to:
+
+- **[Error makes clever](https://www.youtube.com/@ErrorMakesClever)**: For insightful tutorials on web development technologies.
+- **[Logic First Tamil](https://www.youtube.com/@LogicFirstTamil)**: For clear explanations of programming concepts and logical problem-solving approaches.
 - **Code Institute**: For providing a comprehensive Full Stack Developer course that enabled the development of this project.
 - **Slack Community**: For the continuous support and collaboration throughout the course, contributing to the successful completion of this project.
 
