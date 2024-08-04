@@ -1,7 +1,7 @@
 /* Base Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background: url("/assets/images/rockpaper.jpg") no-repeat center center fixed;
+    background: url(`/ultimateRPS/assets/images/rockpaper.jpg´) no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
