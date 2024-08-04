@@ -1,7 +1,7 @@
 /* Base Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background: url(`/ultimateRPS/assets/images/rockpaper.jpg´) no-repeat center center fixed;
+    background: url(`assets/images/rockpaper.jpg´) no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -292,7 +292,7 @@ button:active {
     --button-bg-alt: hsl(56, 94%, 67%);
     --button-color: rgb(0, 0, 0);
     --game-bg: rgb(247, 227, 9);
-    background: url('/assets/images/pilachu.jpg') no-repeat center center fixed;
+    background: url('assets/images/pilachu.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -301,7 +301,7 @@ button:active {
     --button-bg-alt: #adddfb;
     --button-color: #ffffff;
     --game-bg: #4dc8ee;
-    background: url('/assets/images/marvel-chromebook-w.jpg') no-repeat center center fixed;
+    background: url('assets/images/marvel-chromebook-w.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -310,7 +310,7 @@ button:active {
     --button-bg-alt: #8fb0fd;
     --button-color: #fcfdff;
     --game-bg: #9d0000;
-    background: url('/assets/images/spiderman-theme.jpg') no-repeat center center fixed;
+    background: url('assets/images/spiderman-theme.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -319,7 +319,7 @@ button:active {
     --button-bg-alt: #fdf6fa;
     --button-color: #fbfbfb;
     --game-bg: #c70851;
-    background: url('/assets/images/hello_kitty_fullview.jpg') no-repeat center center fixed;
+    background: url('assets/images/hello_kitty_fullview.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
