@@ -238,9 +238,10 @@ The game has been tested using Chrome's Lighthouse tool. The following summarize
 - **SEO**: Full score of 100, ensuring good search engine optimization.
 - **PWA**:  score of 99, confirming that the application meets progressive web app standards.
 
-The game's code has also been validated with the W3C validator, ensuring compliance with web standards.
+The game's code has also been validated with the W3C validator and jshint.com, ensuring compliance with web standards.no errors found
 ![htmlwc3 image](assets/readmeimages/htmlvalidator.jpg)
 ![csswc3 image](assets/readmeimages/css.jpg)
+![ jshint image](assets/readmeimages/jshint.jpg)
 ## Acknowledgments
 
 Special thanks to:
