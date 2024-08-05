@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 document.addEventListener("DOMContentLoaded", () => {
     const backgroundMusic = document.getElementById("background-music");
     const volumeBtn = document.getElementById("volume-btn");
