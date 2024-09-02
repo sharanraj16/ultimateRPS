@@ -286,42 +286,7 @@ button:active {
     border-radius: 5px;
 }
 
-/*  Themes */
-.theme1 {
-    --button-bg: hsl(52, 100%, 53%);
-    --button-bg-alt: hsl(56, 94%, 67%);
-    --button-color: rgb(0, 0, 0);
-    --game-bg: rgb(247, 227, 9);
-    background: url('../images/pilachu.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
 
-.theme2 {
-    --button-bg: #4682b4;
-    --button-bg-alt: #adddfb;
-    --button-color: #ffffff;
-    --game-bg: #4dc8ee;
-    background: url('../images/marvel-chromebook-w.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
-
-.theme3 {
-    --button-bg: #af0000;
-    --button-bg-alt: #8fb0fd;
-    --button-color: #fcfdff;
-    --game-bg: #9d0000;
-    background: url('../images/spiderman-theme.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
-
-.theme4 {
-    --button-bg: #f8057e;
-    --button-bg-alt: #fdf6fa;
-    --button-color: #fbfbfb;
-    --game-bg: #c70851;
-    background: url('../images/hello_kitty_fullview.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
 
 /* Timer Container */
 #timer-container {

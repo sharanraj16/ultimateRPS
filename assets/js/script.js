@@ -29,12 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.add(themes[theme]);
     }
 
-    // Event listeners for theme buttons
-    document.getElementById('theme1-btn').addEventListener('click', () => applyTheme('theme1'));
-    document.getElementById('theme2-btn').addEventListener('click', () => applyTheme('theme2'));
-    document.getElementById('theme3-btn').addEventListener('click', () => applyTheme('theme3'));
-    document.getElementById('theme4-btn').addEventListener('click', () => applyTheme('theme4'));
-
+    
     let playerScore = 0;
     let computerScore = 0;
     let roundsPlayed = 0;
@@ -76,10 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
-    // Apply the selected theme
-    window.setTheme = function(theme) {
-        applyTheme(theme);
-    };
 
     window.showDifficulty = function() {
         const playerName = document.getElementById('player-name').value.trim();
