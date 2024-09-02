@@ -28,7 +28,7 @@
         <div class="game-card">
             <h1>Rock Paper Scissors Lizard Spock Game</h1>
 
-            <!-- Name input issue is been fixed  -->
+            <!-- Name section issue solved in js code -->
             <div id="name-section">
                 <label for="player-name">Enter your name:</label>
                 <input type="text" id="player-name" placeholder="Your Name">
@@ -39,7 +39,7 @@
                 <p id="name-error" class="error"></p>
             </div>
 
-            <!-- Difficulty Selection makes the game more intersting -->
+            <!-- Difficulty Selection -->
             <div id="difficulty-section" style="display: none;">
                 <h2>Select Difficulty Level</h2>
                 <button onclick="setDifficulty(1)">Easy</button>
@@ -88,7 +88,7 @@
         </div>
     </div>
 
-    <!-- Modal for Game Rules its open in seprate box -->
+    <!-- Modal for Game Rules -->
     <div id="rules-modal" class="modal">
         <div class="modal-content">
             <span class="close-button" onclick="hideRules()">&times;</span>
@@ -106,7 +106,7 @@
         </div>
     </div>
 
-    <!-- Audio Elements used in the game -->
+    <!-- Audio Elements -->
     <audio id="click-sound" src="sounds/click.mp3" preload="auto"></audio>
     <audio id="win-sound" src="sounds/win.mp3" preload="auto"></audio>
     <audio id="lose-sound" src="sounds/lost.mp3" preload="auto"></audio>
