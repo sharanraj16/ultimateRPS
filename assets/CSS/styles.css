@@ -1,4 +1,4 @@
-/* body Styles */
+/* Basic body Styles */
 body {
     font-family: 'Arial', sans-serif;
     background: url('https://cdn.vectorstock.com/i/1000v/95/00/rock-paper-scissors-banners-with-hand-gestures-vector-42149500.avif') no-repeat center center fixed;
@@ -11,7 +11,8 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-/* main container*/
+
+/* Main Container */
 .main-container {
     display: flex;
     justify-content: center;
@@ -22,7 +23,8 @@ body {
     margin-left: 80px; 
     margin-top: 100px; 
 }
-/* Game area*/
+
+/* Game Card main game area */
 .game-card {
     background: linear-gradient(135deg, var(--game-bg), #f6fbfe);
     border-radius: 20px;
@@ -34,6 +36,7 @@ body {
     position: relative;
     border: 2px solid #00c6ff;
 }
+
 /* Heading */
 h1 {
     color: #ffffff;
@@ -43,14 +46,15 @@ h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-/* Button Group */
+/* Button Group i got inspired from tech tamilan youtube channel and made my idea into this button styling */
 .button-group {
     display: flex;
     justify-content: center;
     gap: 15px;
     margin-bottom: 20px;
 }
-/* General Button Styles ( i got this button ideas from tamil developer and tech tamizhan youtube channel, i put my ideas into this */
+
+/* General Button Styles */
 button {
     margin: 10px;
     padding: 12px 30px;
@@ -81,6 +85,7 @@ button:active {
     transform: scale(0.95);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
 /* Icon Button Styles */
 .icon-button {
     display: flex;
