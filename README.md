@@ -1,4 +1,3 @@
-Certainly! Here is the updated README with the new game name "Ultimate RPS" and all the requested updates:
 
 ---
 
@@ -9,7 +8,7 @@ Certainly! Here is the updated README with the new game name "Ultimate RPS" and 
 Welcome to Ultimate RPS! This project is a comprehensive demonstration of my skills as a Full Stack Developer, showcasing my proficiency in front-end and back-end web technologies. Developed as part of my Full Stack Developer course at Code Institute, this game utilizes HTML, CSS, and JavaScript to offer an engaging and interactive experience.
 
 Ultimate RPS allows players to challenge the computer in an expanded version of the classic Rock Paper Scissors game, incorporating additional moves like Lizard and Spock. The objective is to reach a score of 10 before the computer does, making it an exciting and competitive experience. This README provides a detailed overview of the project's features, the technologies used, and the criteria met, highlighting the various elements that contribute to the game's functionality and user experience.
-Welcome to <a href="https://sharanraj16.github.io/ultimateRPS/" target="_blank" rel="noopener">UltimateRPS</a>
+Welcome to <a href="/" target="_blank" rel="noopener">UltimateRPS</a>
 
 ![Homepage am i resposive image](assets/readmeimages/amiresponsive.png)
 ## Features
@@ -37,7 +36,10 @@ The wireframes for the UltimateRPS project were produced in Balsamiq.  There are
 ![mobilegamelevel wireframe image](assets/readmeimages/mobgamelevelpagewireframe.jpg)
 ![mobilegamearea wireframe image](assets/readmeimages/mobgameareapagewireframe.jpg)
 ![mobilegameend Page wireframe image](assets/readmeimages/mobgameendpagewireframe.jpg)
-can you update this
+
+## color sceme ##
+![mobilegamerule Page wireframe image](assets/readmeimages/mobgamerulepagewireframe.jpg)
+
 - **Name Input Section**: Users enter their name to personalize the game experience. This section includes a label and buttons to start the game or view the rules.
 - **Game Section**: Visible after starting the game, it includes:
   - **Score Board**: Displays the current scores for both the player and the computer.
@@ -69,13 +71,13 @@ Sound effects and background music enhance the gaming experience:
 - **Lose Sound**: Played when the player loses a round.
 - **Background Music**: Continuous music that can be muted using the mute button.
 
-### 4. **Theme Selection**
+### 4. **GitHub Deployment and Clone**
 
-Players can personalize their gaming experience by choosing from different themes. This feature enhances the visual appeal and allows for a more customized interface.
+Explain how to do deployment and clone in github
 
 ### 5. **End Credits**
 
-Acknowledges the contributions of Tech Tamil and Logic First Tamil YouTube channels, which provided valuable resources and guidance throughout development.
+Acknowledges the contributions of code intitute Tutor Assistance,student care,slack community,bro code,Tech Tamil and Logic First Tamil YouTube channels, which provided valuable resources and guidance throughout development.
 
 ## Technologies Used
 
@@ -93,11 +95,11 @@ HTML forms the structural backbone of the game, including:
 
 CSS styles the game interface for a visually appealing design, including:
 
-- **Body Styling**: Applies a gradient background and centers content. The gradient blends light blue to dark blue and grey to black.
-- **Game Card Styling**: Features a dark gradient background with rounded corners and a shadow effect.
+- **Body Styling**: Applies a gradient background and centers content. 
+- **Game Card Styling**: Features a  gradient background with rounded corners and a shadow effect.
 - **Button Styling**: Includes vibrant gradients, rounded corners, animations, hover effects, and active states.
 - **Modal Styling**: Ensures the modal is prominently displayed with a semi-transparent background and centered content.
-- **Theme Styles**: Multiple themes are available, allowing players to customize the game's appearance.
+- 
 
 ### 3. **JavaScript**
 
@@ -108,8 +110,8 @@ JavaScript adds interactivity and logic to the game, including:
 - **Timer**: Manages the countdown for each round and updates the display.
 - **Game End and Restart**: Manages end-of-game scenarios and resets scores for a new game.
 - **Modal Management**: Controls the display of the rules modal and handles clicks outside the modal to close it.
-- **Theme Selection**: Allows players to change the theme dynamically.
 - **Mute Button**: Toggles sound effects and background music.
+
 
 ### JavaScript Techniques Used
 
@@ -146,8 +148,8 @@ The `playGame(playerChoice)` function:
 
 The `startTimer()` and `resetTimer()` functions:
 
-- `startTimer()`: Initializes and starts the countdown for the round.
-- `resetTimer()`: Resets the countdown to the initial value and restarts it for the next round.
+- `startTimer()`: Initializes and starts the countdown for the round. timer begins when the player start his first move
+- `resetTimer()`: Resets the countdown to the initial value and restarts it for the next round.45 sec
 
 ### 4. **Ending the Game**
 
@@ -173,14 +175,7 @@ The `showRules()` and `hideRules()` functions:
 - `hideRules()`: Hides the modal.
 - An event listener closes the modal if a user clicks outside of it.
 
-### 7. **Theme Selection**
-![gametheme image](assets/readmeimages/gametheme.jpg)
-The `changeTheme(theme)` function:
-
-- Applies the selected theme's styles to the game interface.
-- Updates the theme dynamically without reloading the page.
-
-### 8. **Mute Button**
+### 7. **Mute Button**
 
 The `toggleMute()` function:
 
@@ -204,6 +199,36 @@ The game includes a robust score tracking system. Scores for both the player and
 ### The Ability to Play Against the Computer
 
 Ultimate RPS allows players to compete against a computer opponent. The computer makes random moves, and the outcome of each round is determined based on the player's move versus the computer's move, providing an engaging and unpredictable gaming experience.
+
+## GitHub Deployment and Clone ##
+
+GitHub Deployment
+To deploy this project on GitHub Pages:
+
+Push the Code to GitHub: Ensure that your code is pushed to a GitHub repository.
+Enable GitHub Pages:
+Go to your repository on GitHub.
+Click on the "Settings" tab.
+Scroll down to the "Pages" section.
+Under "Branch," select the branch you want to deploy (usually main or master).
+Click "Save."
+Access the Live Site: After a few minutes, your site will be live at https://<sharanraj16>.github.io/<ultimateRPS>/.
+
+**Cloning the Repository**
+To clone this repository to your local machine:
+
+Copy the Repository URL: You can find this on the repository page on GitHub (under the "Code" button).
+Open Your Terminal: Use a terminal or command prompt on your computer.
+Run the Clone Command:
+bash
+Copy code
+git clone https://github.com/<sharanraj16>/<ultimateRPS>.git
+Navigate to the Project Directory:
+bash
+Copy code
+
+cd <ultimateRPS>
+
 
 ## Performance and Device Compatibility
 
@@ -246,11 +271,11 @@ The game's code has also been validated with the W3C validator and jshint.com, e
 
 Special thanks to:
 
-Special thanks to:
+
 
 - **[Error makes clever](https://www.youtube.com/@ErrorMakesClever)**: For insightful tutorials on web development technologies.
 - **[Logic First Tamil](https://www.youtube.com/@LogicFirstTamil)**: For clear explanations of programming concepts and logical problem-solving approaches.
-- **Code Institute**: For providing a comprehensive Full Stack Developer course that enabled the development of this project.
+- **Code Institute**:Tutor Assistance and studenst support for providing a comprehensive Full Stack Developer course that enabled the development of this project.
 - **Slack Community**: For the continuous support and collaboration throughout the course, contributing to the successful completion of this project.
 
 ## Conclusion
