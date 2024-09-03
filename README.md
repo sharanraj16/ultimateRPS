@@ -77,7 +77,7 @@ Explain how to do deployment and clone in github
 
 ### 5. **End Credits**
 
-Acknowledges the contributions of code intitute Tutor Assistance,student care,slack community,bro code,Tech Tamil and Logic First Tamil YouTube channels, which provided valuable resources and guidance throughout development.
+Acknowledges the contributions of code intitute Tutor Assistance,student care,slack community,error makes clever  and Logic First Tamil YouTube channels, which provided valuable resources and guidance throughout development.
 
 ## Technologies Used
 
@@ -203,31 +203,35 @@ Ultimate RPS allows players to compete against a computer opponent. The computer
 ## GitHub Deployment and Clone ##
 
 GitHub Deployment
-To deploy this project on GitHub Pages:
 
-Push the Code to GitHub: Ensure that your code is pushed to a GitHub repository.
-Enable GitHub Pages:
-Go to your repository on GitHub.
-Click on the "Settings" tab.
-Scroll down to the "Pages" section.
-Under "Branch," select the branch you want to deploy (usually main or master).
-Click "Save."
+To deploy the project
+
+The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+
+![gameend Page wireframe image](assets/readmeimages/gameendpagewireframe.jpg)
+
+1.In the GitHub repository, navigate to the Settings tab.
+2.Once in Settings, navigate to the Pages tab down the side menu.
+3.Under Source, select the branch to master, then click save.
+4.Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate a successful deployment.
+
 Access the Live Site: After a few minutes, your site will be live at https://<sharanraj16>.github.io/<ultimateRPS>/.
 
 **Cloning the Repository**
-To clone this repository to your local machine:
 
-Copy the Repository URL: You can find this on the repository page on GitHub (under the "Code" button).
-Open Your Terminal: Use a terminal or command prompt on your computer.
-Run the Clone Command:
-bash
-Copy code
-git clone https://github.com/<sharanraj16>/<ultimateRPS>.git
-Navigate to the Project Directory:
-bash
-Copy code
+To create a local clone of this project
+The method from cloning a project from GitHub is below:
 
-cd <ultimateRPS>
+![gameend Page wireframe image](assets/readmeimages/gameendpagewireframe.jpg)
+
+1.Under the repository’s name, click on the code tab.
+2.In the Clone with HTTPS section, click on the clipboard icon to copy the given URL.
+Cloning image
+3.In your IDE of choice, open Git Bash.
+4.Change the current working directory to the location where you want the cloned directory to be made.
+5.Type git clone, and then paste the URL copied from GitHub.
+6.Press enter and the local clone will be created.
+
 
 
 ## Performance and Device Compatibility
