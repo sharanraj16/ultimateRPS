@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" type="image/png" href="assets/images/iconfavicon.png">
 </head>
-
 <body>
     <!-- Header Container with Timer -->
     <div id="header-container">
@@ -27,7 +25,7 @@
     <div class="main-container">
         <div class="game-card">
             <h1>Rock Paper Scissors Lizard Spock Game</h1>
-
+           
             <!-- Name and Difficulty Selection -->
             <div id="name-section">
                 <label for="player-name">Enter your name:</label>
@@ -54,4 +52,63 @@
                     <p id="player-score">Player Score: 0</p>
                     <p id="computer-score">Computer Score: 0</p>
                 </div>
-                
+
+                <div class="buttons">
+                    <button onclick="playGame('rock')" class="icon-button">
+                        <i class="fas fa-hand-rock"></i> Rock
+                    </button>
+                    <button onclick="playGame('paper')" class="icon-button">
+                        <i class="fas fa-hand-paper"></i> Paper
+                    </button>
+                    <button onclick="playGame('scissors')" class="icon-button">
+                        <i class="fas fa-hand-scissors"></i> Scissors
+                    </button>
+                    <button onclick="playGame('lizard')" class="icon-button">
+                        <i class="fas fa-paw"></i> Lizard
+                    </button>
+                    <button onclick="playGame('spock')" class="icon-button">
+                        <i class="fas fa-hand-peace"></i> Spock
+                    </button>
+                </div>
+
+                <div id="result">
+                    <p id="result-message"></p>
+                </div>
+
+                <button id="restart-button" onclick="restartGame()">Restart Game</button>
+            </div>
+
+            <!-- Game Over Section -->
+            <div id="game-over" style="display: none;">
+                <h2 id="game-over-message"></h2>
+                <button onclick="restartGame()">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Game Rules -->
+    <div id="rules-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="hideRules()">&times;</span>
+            <h2>Game Rules</h2>
+            <p>In Rock Paper Scissors Lizard Spock, each player chooses one of five options: Rock, Paper, Scissors, Lizard, or Spock. The game is played with the following rules:</p>
+            <ul>
+                <li>Rock crushes Scissors and crushes Lizard.</li>
+                <li>Paper covers Rock and disproves Spock.</li>
+                <li>Scissors cuts Paper and decapitates Lizard.</li>
+                <li>Lizard eats Paper and poisons Spock.</li>
+                <li>Spock smashes Scissors and vaporizes Rock.</li>
+            </ul>
+            <p>The player with the winning choice scores a point. First to reach 10 points wins the game!</p>
+        </div>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="click-sound" src="sounds/click.mp3" preload="auto"></audio>
+    <audio id="win-sound" src="sounds/win.mp3" preload="auto"></audio>
+    <audio id="lose-sound" src="sounds/lost.mp3" preload="auto"></audio>
+    <audio id="background-music" src="sounds/background-music.mp3" preload="auto" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
