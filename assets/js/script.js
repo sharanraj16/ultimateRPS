@@ -120,6 +120,82 @@ window.playGame = (playerChoice) => {
 
     roundsPlayed++;
 
+    // this update the score display
+    document.getElementById("player-score").textContent = `Player Score: ${playerScore}`;
+    document.getElementById("computer-score").textContent = `Computer Score: ${computerScore}`;
+
+    // this will check the game is over and handle the endgame
+    if (playerScore >= maxScore || computerScore >= maxScore) {
+        endGame(playerScore >= maxScore ? "Congratulations! You won the game!" : "Game Over! The computer won the game.");
+    } else {
+        // Display the result of the current round 
+        resultMessage.classList.remove("fade-in");
+        void resultMessage.offsetWidth; 
+        resultMessage.classList.add("fade-in");
+        resultMessage.textContent = result;
+    }
+};
+
+//  the computer's choice that will win against the player's choice
+function getComputerWinningChoice(playerChoice) {
+    const winningConditions = {
+        rock: "paper",
+        paper: "scissors",
+        scissors: "rock",
+        lizard: "rock",
+        spock: "lizard",
+    };
+    return winningConditions[playerChoice];
+}
+// to restart the game and reset all variables
+window.restartGame = () => {
+    playSound(clickSound);
+
+    playerScore = 0;
+    computerScore = 0;
+    roundsPlayed = 0;
+
+    document.getElementById("player-score").textContent = `Player Score: ${playerScore}`;
+    document.getElementById("computer-score").textContent = `Computer Score: ${computerScore}`;
+    document.getElementById("result-message").textContent = "";
+
+    document.getElementById("name-section").style.display = "block";
+    document.getElementById("game-section").style.display = "none";
+    document.getElementById("game-over").style.display = "none";
+    document.getElementById("difficulty-section").style.display = "none";
+
+    gameStarted = false;
+    clearInterval(timerInterval); // Clear any existing timer
+    document.getElementById("timer").textContent = "Time Left: 45s";
+
+    backgroundMusic.currentTime = 0;
+    backgroundMusic.play().catch((error) => {
+        console.log("Error playing background music:", error);
+    });
+};
+
+// Show the rules modal
+window.showRules = () => {
+    playSound(clickSound);
+    document.getElementById("rules-modal").style.display = "block";
+};
+
+// Hide the rules modal
+window.hideRules = () => {
+    document.getElementById("rules-modal").style.display = "none";
+};
+
+// Mute/unmute when the volume button is clicked
+volumeBtn.addEventListener("click", () => {
+    isMuted = !isMuted;
+    if (isMuted) {
+        backgroundMusic.muted = true;
+        volumeBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
+    } else {
+        backgroundMusic.muted = false;
+        volumeBtn.innerHTML = '<i class="fas fa-volume-up"></i>';
+    }
+});
     // Game level selection after entering a valid player name
     window.showDifficulty = () => {
         const playerName = document.getElementById("player-name").value.trim();

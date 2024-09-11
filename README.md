@@ -10,6 +10,15 @@ Welcome to Ultimate RPS! This project is a comprehensive demonstration of my ski
 Ultimate RPS allows players to challenge the computer in an expanded version of the classic Rock Paper Scissors game, incorporating additional moves like Lizard and Spock. The objective is to reach a score of 10 before the computer does, making it an exciting and competitive experience. This README provides a detailed overview of the project's features, the technologies used, and the criteria met, highlighting the various elements that contribute to the game's functionality and user experience.
 Welcome to <a href="/" target="_blank" rel="noopener">UltimateRPS</a>
 
+## How I Came Up with the Rock Paper Scissors Game
+For my second project in the Code Institute Full Stack Developer course, I wanted to build something that was not only fun but also challenged me to think about game logic and user interaction. After brainstorming, I thought back to childhood games that were simple yet engaging, and that's when I remembered the classic Rock, Paper, Scissors game.
+
+This game stood out to me because of its simplicity, but also because it involves strategy, randomness, and interaction—all perfect elements for practicing JavaScript and front-end development. I knew that implementing the game would allow me to solidify my understanding of conditionals, functions, and DOM manipulation, while also creating a project that users could instantly connect with and enjoy.
+
+To focus on the core gameplay experience and ensure a clean, polished look, I decided to remove the theme option from this version of the game. However, I plan to reintroduce and expand upon the theme options in my upcoming projects, making them more dynamic and customizable.
+
+So, I decided to go with it! It felt like the perfect balance between challenging myself and building something familiar, and I’m excited to bring this classic game to life through code.
+
 ![Homepage am i resposive image](assets/readmeimages/amiresponsive.png)
 ## Features
 
@@ -279,8 +288,10 @@ Special thanks to:
 
 - **[Error makes clever](https://www.youtube.com/@ErrorMakesClever)**: For insightful tutorials on web development technologies.
 - **[Logic First Tamil](https://www.youtube.com/@LogicFirstTamil)**: For clear explanations of programming concepts and logical problem-solving approaches.
-- **Code Institute**:Tutor Assistance and studenst support for providing a comprehensive Full Stack Developer course that enabled the development of this project.
+- **Code Institute**:Tutor Assistance and studenst support for providing a comprehensive Full Stack Developer course that enabled the development of this project. .. i have completed  BTEC HND in computing in 2012, but the study material and the LMS of code institute is the best. 
+
 - **Slack Community**: For the continuous support and collaboration throughout the course, contributing to the successful completion of this project.
+- **VHS library**: I would like to extend my sincere thanks to my library assistant at VHS Library Oberhausen, who helped me immensely by providing the JavaScript books I needed to complete this project. 
 
 ## Conclusion
 
