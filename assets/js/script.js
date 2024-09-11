@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log("Error playing sound:", error);
         });
     }
+    
   // Function to start or reset the game timer
   function startTimer() {
     if (timerInterval) clearInterval(timerInterval); // Clear any existing timer
