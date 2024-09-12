@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const resultMessage = document.getElementById("result-message");
 
-        // Define winning conditions for each choice
+        // The winning conditions for each choice
         const winningConditions = {
             rock: ["scissors", "lizard"],
             paper: ["rock", "spock"],
@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
-    // Get the computer's choice that will win against the player's choice
+    //  the computer's choice that will win against the player's choice
     function getComputerWinningChoice(playerChoice) {
         const winningConditions = {
             rock: "paper",
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.showDifficulty = () => {
         const playerName = document.getElementById("player-name").value.trim();
         const nameError = document.getElementById("name-error");
-        const maxLength = 10; // Set maximum allowed length
+        const maxLength = 10; //  maximum allowed length
 
         if (playerName === "" || playerName.length > maxLength) {
             nameError.textContent = `Please enter a valid name (maximum ${maxLength} characters).`;
@@ -217,7 +217,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
-    // Set the game difficulty and start the game
+    // choose the game difficulty and start the game
     window.setDifficulty = (level) => {
         difficulty = level;
         document.getElementById("difficulty-section").style.display = "none";

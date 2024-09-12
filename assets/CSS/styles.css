@@ -1,7 +1,7 @@
 /* Base Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background: url('https://cdn.vectorstock.com/i/1000v/95/00/rock-paper-scissors-banners-with-hand-gestures-vector-42149500.avif') no-repeat center center fixed;
+    background: url('assets/images/rockpaper.jpg') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -319,7 +319,7 @@ button:active {
     50% { transform: translateY(-10px); }
 }
 
-/* Default Theme Variables */
+/* Default Theme */
 :root {
     --button-bg: #ff5f6d;
     --button-bg-alt: #e39bee;
@@ -353,15 +353,15 @@ button {
 /* For tablets and smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
     .main-container {
-        margin-left: 0; /* Remove left margin for better fit */
-        margin-top: 120px; /* Adjust space for better visibility */
-        padding: 15px; /* Reduce padding for smaller screens */
-        flex-direction: column; /* Stack content vertically */
+        margin-left: 0; 
+        margin-top: 120px; 
+        padding: 15px; 
+        flex-direction: column; 
     }
 
     #timer-container {
         top: 10px;
-        left: 10px; /* Adjusted positioning for better visibility */
+        left: 10px; 
     }
 
     #timer {
@@ -390,10 +390,10 @@ button {
 /* For mobile devices (max-width: 480px) */
 @media (max-width: 480px) {
     .main-container {
-        margin-left: 0; /* Ensure no extra space on small screens */
-        margin-top: 150px; /* More space to push content further down */
-        padding: 10px; /* Further reduce padding */
-        flex-direction: column; /* Ensure content stacks vertically */
+        margin-left: 0; 
+        margin-top: 150px; 
+        padding: 10px; 
+        flex-direction: column; 
     }
 
     #timer {

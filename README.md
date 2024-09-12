@@ -47,7 +47,7 @@ The wireframes for the UltimateRPS project were produced in Balsamiq.  There are
 ![mobilegameend Page wireframe image](assets/readmeimages/mobgameendpagewireframe.jpg)
 
 ## color sceme ##
-![mobilegamerule Page wireframe image](assets/readmeimages/mobgamerulepagewireframe.jpg)
+![color image ](assets/readmeimages/colorscheme.png)
 
 - **Name Input Section**: Users enter their name to personalize the game experience. This section includes a label and buttons to start the game or view the rules.
 - **Game Section**: Visible after starting the game, it includes:
