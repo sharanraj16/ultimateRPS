@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const clickSound = document.getElementById("click-sound");
     const winSound = document.getElementById("win-sound");
     const loseSound = document.getElementById("lose-sound");
-
     // Game state variables
     let playerScore = 0;
     let computerScore = 0;
@@ -54,6 +53,9 @@ function endGame(message) {
     document.getElementById("game-section").style.display = "none";
     backgroundMusic.pause(); // Stop background music
     playSound(message.includes("Congratulations") ? winSound : loseSound); // Play win/lose sound
+    clearInterval(timerInterval); // Stop the timer
+    timeLeft = 0; // Reset timer
+    document.getElementById("timer").textContent = `Time Left: 0s`; // Display reset timer
 }
 
 // Function to start the game and display welcome message
