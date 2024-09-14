@@ -8,7 +8,7 @@
 Welcome to Ultimate RPS! This project is a comprehensive demonstration of my skills as a Full Stack Developer, showcasing my proficiency in front-end and back-end web technologies. Developed as part of my Full Stack Developer course at Code Institute, this game utilizes HTML, CSS, and JavaScript to offer an engaging and interactive experience.
 
 Ultimate RPS allows players to challenge the computer in an expanded version of the classic Rock Paper Scissors game, incorporating additional moves like Lizard and Spock. The objective is to reach a score of 10 before the computer does, making it an exciting and competitive experience. This README provides a detailed overview of the project's features, the technologies used, and the criteria met, highlighting the various elements that contribute to the game's functionality and user experience.
-Welcome to <a href="/" target="_blank" rel="noopener">UltimateRPS</a>
+Welcome to <a href=" https://sharanraj16.github.io/ultimateRPS/" target="_blank" rel="noopener">UltimateRPS</a>
 
 ## How I Came Up with the Rock Paper Scissors Game
 For my second project in the Code Institute Full Stack Developer course, I wanted to build something that was not only fun but also challenged me to think about game logic and user interaction. After brainstorming, I thought back to childhood games that were simple yet engaging, and that's when I remembered the classic Rock, Paper, Scissors game.
@@ -19,7 +19,7 @@ To focus on the core gameplay experience and ensure a clean, polished look, I de
 
 So, I decided to go with it! It felt like the perfect balance between challenging myself and building something familiar, and I’m excited to bring this classic game to life through code.
 
-![Homepage am i resposive image](assets/readmeimages/amiresponsive.png)
+![ami image](assets/readmeimages/ami.png)
 ## Features
 
 ### 1. **User Interface**
@@ -31,20 +31,18 @@ The wireframes for the UltimateRPS project were produced in Balsamiq.  There are
 
 ## Desktop Device Wireframes 
 
-![startpage wireframe image](assets/readmeimages/startpagewireframe.jpg)
+![startpage wireframe image](assets/readmeimages/desktopstart.png)
 ![gamerule Page wireframe image](assets/readmeimages/rulepagewireframe.jpg)
-![gametheme Page wireframe image](assets/readmeimages/themepagewireframe.jpg)
-![gamelevel wireframe image](assets/readmeimages/levelpagewireframe.jpg)
-![gamearea wireframe image](assets/readmeimages/gameareapagewireframe.jpg)
-![gameend Page wireframe image](assets/readmeimages/gameendpagewireframe.jpg)
+![gamelevel wireframe image](assets/readmeimages/desktoplevel.png)
+![gamearea wireframe image](assets/readmeimages/dektopgamearea.png)
+![gameend Page wireframe image](assets/readmeimages/desktopgameend.png)
 ## Mobile Device Wireframes
 
-![mobilestart wireframe image](assets/readmeimages/mobstartpagewireframe.jpg)
+![mobilestart wireframe image](assets/readmeimages/mobilestart.png)
 ![mobilegamerule Page wireframe image](assets/readmeimages/mobgamerulepagewireframe.jpg)
-![mobilegametheme Page wireframe image](assets/readmeimages/mobthemepagewireframe.jpg)
-![mobilegamelevel wireframe image](assets/readmeimages/mobgamelevelpagewireframe.jpg)
-![mobilegamearea wireframe image](assets/readmeimages/mobgameareapagewireframe.jpg)
-![mobilegameend Page wireframe image](assets/readmeimages/mobgameendpagewireframe.jpg)
+![mobilegamelevel wireframe image](assets/readmeimages/mobilelevel.png)
+![mobilegamearea wireframe image](assets/readmeimages/mobilegamearea.png)
+![mobilegameend Page wireframe image](assets/readmeimages/mobilegameend.png)
 
 ## color sceme ##
 ![color image ](assets/readmeimages/colorscheme.png)
@@ -58,7 +56,6 @@ The wireframes for the UltimateRPS project were produced in Balsamiq.  There are
   - **Restart Button**: Allows restarting the game at any time.
 - **Game Over Section**: Appears when the game ends, displaying the result and offering an option to play again.
 - **Rules Modal**: Displays game rules when the "Game Rules" button is clicked.
-- **Theme Selection**: Allows players to choose from different themes for a customized look and feel.
 - **Mute Button**: Toggles background music and sound effects on and off.
 
 ### 2. **Game Logic**
@@ -138,15 +135,15 @@ JavaScript adds interactivity and logic to the game, including:
 ### 1. **Initialization**
 
 The `startGame()` function:
-![startpage  image](assets/readmeimages/gamestart.jpg)
+![startpage  image](assets/readmeimages/startingdesktop.png)
 - Retrieves and validates the player’s name.
 - Displays a welcome message and transitions to the game section.
 
 ### 2. **Handling Player Moves**
 
 The `playGame(playerChoice)` function:
-![level image](assets/readmeimages/gamelevel.jpg)
-![play area image](assets/readmeimages/gamearea.jpg)
+![level image](assets/readmeimages/leveldesktop.png)
+![play area image](assets/readmeimages/desktopgamearea.png)
 - Plays the click sound effect.
 - Generates a random computer move.
 - Compares moves to determine the round result and updates scores.
@@ -163,7 +160,7 @@ The `startTimer()` and `resetTimer()` functions:
 ### 4. **Ending the Game**
 
 The `endGame(message)` function:
-![endgame image](assets/readmeimages/gameend.jpg)
+![endgame image](assets/readmeimages/gameend.png)
 - Hides the game section and displays the game-over section with a result message.
 - Provides an option to play again.
 
@@ -176,7 +173,7 @@ The `restartGame()` function:
 - Shows the name input section and hides the game and game-over sections.
 
 ### 6. **Managing the Rules Modal**
-![gamerules image](assets/readmeimages/gamerule.jpg)
+![gamerules image](assets/readmeimages/rulesdesktop.png)
 
 The `showRules()` and `hideRules()` functions:
 
@@ -217,7 +214,7 @@ To deploy the project
 
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
 
-![gameend Page wireframe image](assets/readmeimages/gameendpagewireframe.jpg)
+![deploy image](assets/readmeimages/deploy.png)
 
 1.In the GitHub repository, navigate to the Settings tab.
 2.Once in Settings, navigate to the Pages tab down the side menu.
@@ -231,7 +228,7 @@ Access the Live Site: After a few minutes, your site will be live at https://<sh
 To create a local clone of this project
 The method from cloning a project from GitHub is below:
 
-![gameend Page wireframe image](assets/readmeimages/gameendpagewireframe.jpg)
+![clone image](assets/readmeimages/clone.png)
 
 1.Under the repository’s name, click on the code tab.
 2.In the Clone with HTTPS section, click on the clipboard icon to copy the given URL.
