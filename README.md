@@ -216,10 +216,10 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 
 ![deploy image](assets/readmeimages/deploy.png)
 
-1.In the GitHub repository, navigate to the Settings tab.
-2.Once in Settings, navigate to the Pages tab down the side menu.
-3.Under Source, select the branch to master, then click save.
-4.Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate a successful deployment.
+- 1.In the GitHub repository, navigate to the Settings tab.
+- 2.Once in Settings, navigate to the Pages tab down the side menu.
+- 3.Under Source, select the branch to master, then click save.
+- 4.Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate a successful deployment.
 
 Access the Live Site: After a few minutes, your site will be live at https://<sharanraj16>.github.io/<ultimateRPS>/.
 
@@ -230,13 +230,13 @@ The method from cloning a project from GitHub is below:
 
 ![clone image](assets/readmeimages/clone.png)
 
-1.Under the repository’s name, click on the code tab.
-2.In the Clone with HTTPS section, click on the clipboard icon to copy the given URL.
+- 1.Under the repository’s name, click on the code tab.
+- 2.In the Clone with HTTPS section, click on the clipboard icon to copy the given URL.
 Cloning image
-3.In your IDE of choice, open Git Bash.
-4.Change the current working directory to the location where you want the cloned directory to be made.
-5.Type git clone, and then paste the URL copied from GitHub.
-6.Press enter and the local clone will be created.
+- 3.In your IDE of choice, open Git Bash.
+- 4.Change the current working directory to the location where you want the cloned directory to be made.
+- 5.Type git clone, and then paste the URL copied from GitHub.
+- 6.Press enter and the local clone will be created.
 
 
 
