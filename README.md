@@ -8,7 +8,7 @@
 Welcome to Ultimate RPS! This project is a comprehensive demonstration of my skills as a Full Stack Developer, showcasing my proficiency in front-end and back-end web technologies. Developed as part of my Full Stack Developer course at Code Institute, this game utilizes HTML, CSS, and JavaScript to offer an engaging and interactive experience.
 
 Ultimate RPS allows players to challenge the computer in an expanded version of the classic Rock Paper Scissors game, incorporating additional moves like Lizard and Spock. The objective is to reach a score of 10 before the computer does, making it an exciting and competitive experience. This README provides a detailed overview of the project's features, the technologies used, and the criteria met, highlighting the various elements that contribute to the game's functionality and user experience.
-Welcome to <a href="https://sharanraj16.github.io/ultimateRPS2/" target="_blank" rel="noopener">UltimateRPS</a>
+Welcome to <a href="https://sharanraj16.github.io/ultimateRPS/" target="_blank" rel="noopener">UltimateRPS</a>
 
 ## How I Came Up with the Rock Paper Scissors Game
 For my second project in the Code Institute Full Stack Developer course, I wanted to build something that was not only fun but also challenged me to think about game logic and user interaction. After brainstorming, I thought back to childhood games that were simple yet engaging, and that's when I remembered the classic Rock, Paper, Scissors game.
