@@ -221,7 +221,7 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 - 3.Under Source, select the branch to master, then click save.
 - 4.Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate a successful deployment.
 
-Access the Live Site: After a few minutes, your site will be live at https://<sharanraj16>.github.io/<ultimateRPS>/.
+Access the Live Site: After a few minutes, the site will be live at https://<sharanraj16>.github.io/<ultimateRPS>/.
 
 **Cloning the Repository**
 
@@ -238,13 +238,27 @@ Cloning image
 - 5.Type git clone, and then paste the URL copied from GitHub.
 - 6.Press enter and the local clone will be created.
 
+Here’s the updated section with your latest request:
+
+---
+
+## Error Corrections
+
+1. **JavaScript Console Errors**: The issue where a console error occurred when the timer ran out has been fixed. The project now runs without any console errors.
+   
+2. **Responsive Design Fixes**: The navigation menu has been adjusted to work properly on smaller screens, improving overall responsiveness.
+
+3. **GitHub Pages Deployment**: The site has been successfully deployed using GitHub Pages. Instructions for deployment are included.
+
+4. **Theme Option**: I have removed the theme option for this project to focus on what I’ve learned so far. I plan to use the theme option in future projects.
+
+5. **Commit Practices**: I understand the importance of regular committing and staging in GitHub, and I have consistently applied these practices in this project and pp3.
+
 
 
 ## Performance and Device Compatibility
 
-The
-
- game has been tested for performance and compatibility across various devices. The following table summarizes the results:
+The game has been tested for performance and compatibility across various devices. The following table summarizes the results:
 
 | Device Type       | Device Model           | Browser           | Compatibility Status | Notes                                    |
 |-------------------|-------------------------|--------------------|-----------------------|------------------------------------------|
